@@ -1,0 +1,53 @@
+{
+  "contract": {
+    "channel_layout": "compact",
+    "city": "porto",
+    "entity_identity_policy": "not_used_in_primary_compact_paradigm_control",
+    "frame_minutes": 15,
+    "future_window": 4,
+    "global_entity_id_as_feature": false,
+    "history_window": 8,
+    "max_entity_slots": 64,
+    "point_path": "/home/yinglizhi/Workspace/TransportPlanning/geosot_llm_benchmark/datasets/processed/porto_taxi/porto_points_full.parquet",
+    "state_channels": 6,
+    "time_column": "time",
+    "trajectory_column": "trip_id"
+  },
+  "effective_splits": {
+    "test": {
+      "end": "2014-12-22T00:00:00",
+      "start": "2014-06-01T03:00:00"
+    },
+    "train": {
+      "end": "2014-02-28T21:00:00",
+      "start": null
+    },
+    "validation": {
+      "end": "2014-05-31T21:00:00",
+      "start": "2014-03-01T03:00:00"
+    }
+  },
+  "isolation": {
+    "frame_minutes": 15,
+    "guard_frames": 12,
+    "trajectory_boundary_policy": "time_block_aggregate; no sample may cross an effective split interval",
+    "unit": "time_block"
+  },
+  "manifest_parent_sha256": "fb21b242eab9da117d56e547d94d84d7434cbca2ed0f091323ef91158c59a2e3",
+  "manifest_sha256": "fc96dd288fad9cae61f8ea145c10460f105b8cc8a54831c98d456679701698a0",
+  "schema_version": 3,
+  "splits": {
+    "test": {
+      "end": "2014-12-22T00:00:00",
+      "start": "2014-06-01T00:00:00"
+    },
+    "train": {
+      "end": "2014-03-01T00:00:00",
+      "start": null
+    },
+    "validation": {
+      "end": "2014-06-01T00:00:00",
+      "start": "2014-03-01T00:00:00"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+city,tag,label,epochs,hidden,test_limit,frame_cache
+porto,convgru_6ch,ConvGRU (6 channels),8,48,1200,compact_frame_cache
+porto,convgru_2ch,ConvGRU (2 channels),8,48,1200,compact_frame_cache
+porto,convlstm_6ch,ConvLSTM (6 channels),8,48,1200,compact_frame_cache
+porto,stgcn,STGCN (6 channels),8,48,1200,compact_frame_cache
+porto,graph_wavenet,Graph WaveNet (6 channels),8,48,1200,compact_frame_cache
+porto,predrnnpp,PredRNN++ (6 channels),8,48,1200,compact_frame_cache
+t_drive,convgru_6ch,ConvGRU (6 channels),8,48,240,compact_frame_cache
+t_drive,convgru_2ch,ConvGRU (2 channels),8,48,240,compact_frame_cache
+t_drive,convlstm_6ch,ConvLSTM (6 channels),8,48,240,compact_frame_cache
+t_drive,stgcn,STGCN (6 channels),8,48,240,compact_frame_cache
+t_drive,graph_wavenet,Graph WaveNet (6 channels),8,48,240,compact_frame_cache
+t_drive,predrnnpp,PredRNN++ (6 channels),8,48,240,compact_frame_cache
